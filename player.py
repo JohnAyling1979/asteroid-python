@@ -51,4 +51,4 @@ class Player(CircleShape):
       self.cooldown -= dt
 
   def draw(self, screen):
-    pygame.draw.polygon(screen, (255, 255, 255), self.triangle())
+    pygame.draw.polygon(screen, (137, 207, 240), self.triangle())
